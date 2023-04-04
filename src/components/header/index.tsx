@@ -3,10 +3,8 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Fox', href: '#' },
+  { name: 'about foxes', href: '#' },
 ]
 
 export const Header = () => {
@@ -21,11 +19,7 @@ export const Header = () => {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            />
+            <img className="h-8 w-auto" src="/fox.svg" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -66,11 +60,7 @@ export const Header = () => {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img
-                className="h-8 w-auto"
-                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                alt=""
-              />
+              <img className="h-8 w-auto" src="/fox.svg" alt="" />
             </a>
             <button
               type="button"
