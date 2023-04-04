@@ -1,4 +1,4 @@
-## Fox Lazyload with React,TypeScript and Tailwind based on Platzi
+## Fox Lazyload with React, TypeScript and Tailwind based on Platzi
 
 See project in https://react-ts-tailwind-lazy-load-1s1d.vercel.app/
 
