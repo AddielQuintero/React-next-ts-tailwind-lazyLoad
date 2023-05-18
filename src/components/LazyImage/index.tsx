@@ -22,6 +22,7 @@ export const LazyImage = ({ src, onLazyLoad }: LazyImageProps): JSX.Element => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           setCurrentSrc(src)
+          observer.disconnect()
           setIsLazyLoaded(true)
         }
       })
