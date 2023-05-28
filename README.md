@@ -1,6 +1,6 @@
 ## Fox Lazyload with React, TypeScript and Tailwind based on Platzi
 
-See project in [https://react-ts-tailwind-lazy-load-1s1d.vercel.app/](https://react-ts-tailwind-lazy-load.vercel.app/)
+See project in [https://react-ts-tailwind-lazy-load.vercel.app/](https://react-ts-tailwind-lazy-load.vercel.app/)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
